@@ -1,0 +1,102 @@
+[
+  {
+    "id": "1",
+    "name": "Eleanor Vance",
+    "slug": "eleanor-vance",
+    "role": "Senior Editor",
+    "biography": "Eleanor Vance is an award-winning journalist with over a decade of experience covering major global events. Their work has been featured in numerous prestigious publications, bringing incisive analysis to complex issues.",
+    "email": "eleanor.vance@newstimes.com",
+    "website": "https://eleanorvance.com",
+    "avatarUrl": "https://i.pravatar.cc/150?u=EleanorVance"
+  },
+  {
+    "id": "2",
+    "name": "Julian Thorne",
+    "slug": "julian-thorne",
+    "role": "Investigative Reporter",
+    "biography": "Julian Thorne is an award-winning journalist with over a decade of experience covering major global events. Their work has been featured in numerous prestigious publications, bringing incisive analysis to complex issues.",
+    "email": "julian.thorne@newstimes.com",
+    "website": "https://julianthorne.com",
+    "avatarUrl": "https://i.pravatar.cc/150?u=JulianThorne"
+  },
+  {
+    "id": "3",
+    "name": "Maya Rossi",
+    "slug": "maya-rossi",
+    "role": "Technology Correspondent",
+    "biography": "Maya Rossi is an award-winning journalist with over a decade of experience covering major global events. Their work has been featured in numerous prestigious publications, bringing incisive analysis to complex issues.",
+    "email": "maya.rossi@newstimes.com",
+    "website": "https://mayarossi.com",
+    "avatarUrl": "https://i.pravatar.cc/150?u=MayaRossi"
+  },
+  {
+    "id": "4",
+    "name": "David Chen",
+    "slug": "david-chen",
+    "role": "Political Analyst",
+    "biography": "David Chen is an award-winning journalist with over a decade of experience covering major global events. Their work has been featured in numerous prestigious publications, bringing incisive analysis to complex issues.",
+    "email": "david.chen@newstimes.com",
+    "website": "https://davidchen.com",
+    "avatarUrl": "https://i.pravatar.cc/150?u=DavidChen"
+  },
+  {
+    "id": "5",
+    "name": "Sarah Jenkins",
+    "slug": "sarah-jenkins",
+    "role": "Culture Writer",
+    "biography": "Sarah Jenkins is an award-winning journalist with over a decade of experience covering major global events. Their work has been featured in numerous prestigious publications, bringing incisive analysis to complex issues.",
+    "email": "sarah.jenkins@newstimes.com",
+    "website": "https://sarahjenkins.com",
+    "avatarUrl": "https://i.pravatar.cc/150?u=SarahJenkins"
+  },
+  {
+    "id": "6",
+    "name": "Marcus Wright",
+    "slug": "marcus-wright",
+    "role": "Senior Editor",
+    "biography": "Marcus Wright is an award-winning journalist with over a decade of experience covering major global events. Their work has been featured in numerous prestigious publications, bringing incisive analysis to complex issues.",
+    "email": "marcus.wright@newstimes.com",
+    "website": "https://marcuswright.com",
+    "avatarUrl": "https://i.pravatar.cc/150?u=MarcusWright"
+  },
+  {
+    "id": "7",
+    "name": "Elena Rostova",
+    "slug": "elena-rostova",
+    "role": "Investigative Reporter",
+    "biography": "Elena Rostova is an award-winning journalist with over a decade of experience covering major global events. Their work has been featured in numerous prestigious publications, bringing incisive analysis to complex issues.",
+    "email": "elena.rostova@newstimes.com",
+    "website": "https://elenarostova.com",
+    "avatarUrl": "https://i.pravatar.cc/150?u=ElenaRostova"
+  },
+  {
+    "id": "8",
+    "name": "Jameson Locke",
+    "slug": "jameson-locke",
+    "role": "Technology Correspondent",
+    "biography": "Jameson Locke is an award-winning journalist with over a decade of experience covering major global events. Their work has been featured in numerous prestigious publications, bringing incisive analysis to complex issues.",
+    "email": "jameson.locke@newstimes.com",
+    "website": "https://jamesonlocke.com",
+    "avatarUrl": "https://i.pravatar.cc/150?u=JamesonLocke"
+  },
+  {
+    "id": "9",
+    "name": "Clara Hughes",
+    "slug": "clara-hughes",
+    "role": "Political Analyst",
+    "biography": "Clara Hughes is an award-winning journalist with over a decade of experience covering major global events. Their work has been featured in numerous prestigious publications, bringing incisive analysis to complex issues.",
+    "email": "clara.hughes@newstimes.com",
+    "website": "https://clarahughes.com",
+    "avatarUrl": "https://i.pravatar.cc/150?u=ClaraHughes"
+  },
+  {
+    "id": "10",
+    "name": "Aiden Pierce",
+    "slug": "aiden-pierce",
+    "role": "Culture Writer",
+    "biography": "Aiden Pierce is an award-winning journalist with over a decade of experience covering major global events. Their work has been featured in numerous prestigious publications, bringing incisive analysis to complex issues.",
+    "email": "aiden.pierce@newstimes.com",
+    "website": "https://aidenpierce.com",
+    "avatarUrl": "https://i.pravatar.cc/150?u=AidenPierce"
+  }
+]

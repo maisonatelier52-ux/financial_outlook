@@ -1,0 +1,69 @@
+:root {
+  --background: #f4f4f1;
+  --surface: #ffffff;
+  --foreground: #111111;
+  --muted: #747474;
+  --border: #d7d7d2;
+  --dark: #101010;
+  --accent: #d94b32;
+
+  --font-display: "Playfair Display", serif;
+  --font-body: "Inter", sans-serif;
+
+  --space-xs: 0.35rem;
+  --space-sm: 0.75rem;
+  --space-md: 1.25rem;
+  --space-lg: 2rem;
+  --space-xl: 4rem;
+  --space-2xl: 7rem;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-body);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-display);
+  font-weight: 400;
+}
+
+/* Base link hover effect */
+a:hover {
+  opacity: 0.8;
+  transition: opacity 0.2s ease;
+}
+
+/* Scrollbar styles */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: var(--background);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--muted);
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--foreground);
+}
