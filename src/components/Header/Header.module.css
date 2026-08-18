@@ -74,7 +74,7 @@
   gap: var(--space-sm);
   font-family: var(--font-body);
   font-size: 0.95rem;
-  letter-spacing: 0.02em;
+  letter-spacing: 0.02em; 
 }
 
 .categoriesNav a {
