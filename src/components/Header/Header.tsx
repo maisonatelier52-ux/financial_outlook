@@ -57,6 +57,14 @@ const Header: React.FC<HeaderProps> = ({ latestNews }) => {
       </div>
       <div className={styles.container}>
         
+        <div className={styles.logoContainer}>
+          <div className={styles.timeDisplay}>{formattedTime}</div>
+          <Link href="/" className={styles.logo}>
+            NEWS TIMES
+          </Link>
+          <div className={styles.dateDisplay}>{formattedDate}</div>
+        </div>
+
         <nav className={styles.categoriesNav}>
           <Link href="/">Home</Link>
           <span className={styles.separator}>|</span>
@@ -70,14 +78,6 @@ const Header: React.FC<HeaderProps> = ({ latestNews }) => {
           <span className={styles.separator}>|</span>
           <Link href="/search?q=business">Business</Link>
         </nav>
-
-        <div className={styles.logoContainer}>
-          <div className={styles.timeDisplay}>{formattedTime}</div>
-          <Link href="/" className={styles.logo}>
-            NEWS TIMES
-          </Link>
-          <div className={styles.dateDisplay}>{formattedDate}</div>
-        </div>
         
       </div>
     </header>
