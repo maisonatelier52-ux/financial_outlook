@@ -1,102 +1,52 @@
 [
   {
-    "id": "1",
-    "name": "Eleanor Vance",
+    "id": "eleanor-vance",
     "slug": "eleanor-vance",
+    "name": "Eleanor Vance",
     "role": "Senior Editor",
-    "biography": "Eleanor Vance is an award-winning journalist with over a decade of experience covering major global events. Their work has been featured in numerous prestigious publications, bringing incisive analysis to complex issues.",
-    "email": "eleanor.vance@newstimes.com",
-    "website": "https://eleanorvance.com",
-    "avatarUrl": "https://i.pravatar.cc/150?u=EleanorVance"
+    "email": "e.vance@newstimes.com",
+    "website": "https://example.com/evance",
+    "avatarUrl": "https://i.pravatar.cc/300?u=e.vance%40newstimes.com",
+    "biography": "Eleanor Vance is a distinguished journalist with over 15 years of experience covering global affairs. Their work has been recognized with numerous industry awards for excellence in investigative reporting and insightful analysis. When not writing, Eleanor Vance can be found exploring the intersection of technology and society, always searching for the next compelling story that needs to be told."
   },
   {
-    "id": "2",
-    "name": "Julian Thorne",
+    "id": "julian-thorne",
     "slug": "julian-thorne",
-    "role": "Investigative Reporter",
-    "biography": "Julian Thorne is an award-winning journalist with over a decade of experience covering major global events. Their work has been featured in numerous prestigious publications, bringing incisive analysis to complex issues.",
-    "email": "julian.thorne@newstimes.com",
-    "website": "https://julianthorne.com",
-    "avatarUrl": "https://i.pravatar.cc/150?u=JulianThorne"
+    "name": "Julian Thorne",
+    "role": "Chief Investigative Reporter",
+    "email": "j.thorne@newstimes.com",
+    "website": "https://example.com/jthorne",
+    "avatarUrl": "https://i.pravatar.cc/300?u=j.thorne%40newstimes.com",
+    "biography": "Julian Thorne is a distinguished journalist with over 15 years of experience covering global affairs. Their work has been recognized with numerous industry awards for excellence in investigative reporting and insightful analysis. When not writing, Julian Thorne can be found exploring the intersection of technology and society, always searching for the next compelling story that needs to be told."
   },
   {
-    "id": "3",
-    "name": "Maya Rossi",
+    "id": "maya-rossi",
     "slug": "maya-rossi",
+    "name": "Maya Rossi",
     "role": "Technology Correspondent",
-    "biography": "Maya Rossi is an award-winning journalist with over a decade of experience covering major global events. Their work has been featured in numerous prestigious publications, bringing incisive analysis to complex issues.",
-    "email": "maya.rossi@newstimes.com",
-    "website": "https://mayarossi.com",
-    "avatarUrl": "https://i.pravatar.cc/150?u=MayaRossi"
+    "email": "m.rossi@newstimes.com",
+    "website": "https://example.com/mrossi",
+    "avatarUrl": "https://i.pravatar.cc/300?u=m.rossi%40newstimes.com",
+    "biography": "Maya Rossi is a distinguished journalist with over 15 years of experience covering global affairs. Their work has been recognized with numerous industry awards for excellence in investigative reporting and insightful analysis. When not writing, Maya Rossi can be found exploring the intersection of technology and society, always searching for the next compelling story that needs to be told."
   },
   {
-    "id": "4",
-    "name": "David Chen",
+    "id": "david-chen",
     "slug": "david-chen",
-    "role": "Political Analyst",
-    "biography": "David Chen is an award-winning journalist with over a decade of experience covering major global events. Their work has been featured in numerous prestigious publications, bringing incisive analysis to complex issues.",
-    "email": "david.chen@newstimes.com",
-    "website": "https://davidchen.com",
-    "avatarUrl": "https://i.pravatar.cc/150?u=DavidChen"
+    "name": "David Chen",
+    "role": "Financial Analyst",
+    "email": "d.chen@newstimes.com",
+    "website": "https://example.com/dchen",
+    "avatarUrl": "https://i.pravatar.cc/300?u=d.chen%40newstimes.com",
+    "biography": "David Chen is a distinguished journalist with over 15 years of experience covering global affairs. Their work has been recognized with numerous industry awards for excellence in investigative reporting and insightful analysis. When not writing, David Chen can be found exploring the intersection of technology and society, always searching for the next compelling story that needs to be told."
   },
   {
-    "id": "5",
-    "name": "Sarah Jenkins",
+    "id": "sarah-jenkins",
     "slug": "sarah-jenkins",
-    "role": "Culture Writer",
-    "biography": "Sarah Jenkins is an award-winning journalist with over a decade of experience covering major global events. Their work has been featured in numerous prestigious publications, bringing incisive analysis to complex issues.",
-    "email": "sarah.jenkins@newstimes.com",
-    "website": "https://sarahjenkins.com",
-    "avatarUrl": "https://i.pravatar.cc/150?u=SarahJenkins"
-  },
-  {
-    "id": "6",
-    "name": "Marcus Wright",
-    "slug": "marcus-wright",
-    "role": "Senior Editor",
-    "biography": "Marcus Wright is an award-winning journalist with over a decade of experience covering major global events. Their work has been featured in numerous prestigious publications, bringing incisive analysis to complex issues.",
-    "email": "marcus.wright@newstimes.com",
-    "website": "https://marcuswright.com",
-    "avatarUrl": "https://i.pravatar.cc/150?u=MarcusWright"
-  },
-  {
-    "id": "7",
-    "name": "Elena Rostova",
-    "slug": "elena-rostova",
-    "role": "Investigative Reporter",
-    "biography": "Elena Rostova is an award-winning journalist with over a decade of experience covering major global events. Their work has been featured in numerous prestigious publications, bringing incisive analysis to complex issues.",
-    "email": "elena.rostova@newstimes.com",
-    "website": "https://elenarostova.com",
-    "avatarUrl": "https://i.pravatar.cc/150?u=ElenaRostova"
-  },
-  {
-    "id": "8",
-    "name": "Jameson Locke",
-    "slug": "jameson-locke",
-    "role": "Technology Correspondent",
-    "biography": "Jameson Locke is an award-winning journalist with over a decade of experience covering major global events. Their work has been featured in numerous prestigious publications, bringing incisive analysis to complex issues.",
-    "email": "jameson.locke@newstimes.com",
-    "website": "https://jamesonlocke.com",
-    "avatarUrl": "https://i.pravatar.cc/150?u=JamesonLocke"
-  },
-  {
-    "id": "9",
-    "name": "Clara Hughes",
-    "slug": "clara-hughes",
-    "role": "Political Analyst",
-    "biography": "Clara Hughes is an award-winning journalist with over a decade of experience covering major global events. Their work has been featured in numerous prestigious publications, bringing incisive analysis to complex issues.",
-    "email": "clara.hughes@newstimes.com",
-    "website": "https://clarahughes.com",
-    "avatarUrl": "https://i.pravatar.cc/150?u=ClaraHughes"
-  },
-  {
-    "id": "10",
-    "name": "Aiden Pierce",
-    "slug": "aiden-pierce",
-    "role": "Culture Writer",
-    "biography": "Aiden Pierce is an award-winning journalist with over a decade of experience covering major global events. Their work has been featured in numerous prestigious publications, bringing incisive analysis to complex issues.",
-    "email": "aiden.pierce@newstimes.com",
-    "website": "https://aidenpierce.com",
-    "avatarUrl": "https://i.pravatar.cc/150?u=AidenPierce"
+    "name": "Sarah Jenkins",
+    "role": "Cultural Critic",
+    "email": "s.jenkins@newstimes.com",
+    "website": "https://example.com/sjenkins",
+    "avatarUrl": "https://i.pravatar.cc/300?u=s.jenkins%40newstimes.com",
+    "biography": "Sarah Jenkins is a distinguished journalist with over 15 years of experience covering global affairs. Their work has been recognized with numerous industry awards for excellence in investigative reporting and insightful analysis. When not writing, Sarah Jenkins can be found exploring the intersection of technology and society, always searching for the next compelling story that needs to be told."
   }
 ]

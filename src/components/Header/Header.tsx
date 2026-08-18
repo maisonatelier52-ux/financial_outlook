@@ -1,98 +1,86 @@
+"use client";
+
 import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
-import { Search, Menu, X } from 'lucide-react';
+import { Search, Menu } from 'lucide-react';
 import styles from './Header.module.css';
 import Navigation from '../Navigation/Navigation';
 
-const Header = () => {
-  const [isScrolled, setIsScrolled] = useState(false);
+interface HeaderProps {
+  latestNews: { headline: string; slug: string }[];
+}
+
+const Header: React.FC<HeaderProps> = ({ latestNews }) => {
   const [isNavOpen, setIsNavOpen] = useState(false);
-  const [isSearchOpen, setIsSearchOpen] = useState(false);
-  const [searchQuery, setSearchQuery] = useState('');
   const [currentTime, setCurrentTime] = useState<Date | null>(null);
 
   useEffect(() => {
     setCurrentTime(new Date());
-    const timer = setInterval(() => setCurrentTime(new Date()), 1000);
+    const timer = setInterval(() => setCurrentTime(new Date()), 1000); // Update every second
     return () => clearInterval(timer);
   }, []);
 
-  useEffect(() => {
-    const handleScroll = () => {
-      setIsScrolled(window.scrollY > 50);
-    };
-    window.addEventListener('scroll', handleScroll);
-    return () => window.removeEventListener('scroll', handleScroll);
-  }, []);
-
-  const handleSearchSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
-    if (searchQuery.trim()) {
-      window.location.href = `/search?q=${encodeURIComponent(searchQuery)}`;
-    }
-  };
-
+  // Format date like 25.SEPTEMBER.20XX
   const formattedDate = currentTime 
-    ? currentTime.toLocaleDateString('en-US', { weekday: 'long', month: 'long', day: 'numeric', year: 'numeric' })
+    ? `${currentTime.getDate()}.${currentTime.toLocaleString('en-US', { month: 'long' }).toUpperCase()}.${currentTime.getFullYear()}`
     : '';
     
   const formattedTime = currentTime
-    ? currentTime.toLocaleTimeString('en-US', { hour: 'numeric', minute: '2-digit', second: '2-digit' })
+    ? currentTime.toLocaleTimeString('en-US', { hour: '2-digit', minute: '2-digit', second: '2-digit' })
     : '';
 
   return (
-    <>
-      <header className={`${styles.header} ${isScrolled ? styles.scrolled : ''}`}>
-        <div className={styles.container}>
-          <div className={styles.left}>
-            <button 
-              className={styles.menuButton}
-              onClick={() => setIsNavOpen(true)}
-              aria-label="Open Navigation Menu"
-            >
-              <Menu size={20} />
-              <span className={styles.menuText}>MENU</span>
-            </button>
+    <header className={styles.header}>
+      <div className={styles.flashNewsContainer}>
+        <div className={styles.flashNewsTicker}>
+          <div className={styles.tickerContent}>
+            {latestNews.map((item, i) => (
+              <span key={`first-${i}`} className={styles.newsItem}>
+                <Link href={`/article/${item.slug}`} className={styles.newsLink}>
+                  {item.headline}
+                </Link>
+                <span className={styles.bullet}>&bull;</span>
+              </span>
+            ))}
           </div>
-
-          <div className={styles.center}>
-            <Link href="/" className={styles.logo}>
-              <span className={styles.news}>news</span>
-              <span className={styles.times}>Times</span>
-            </Link>
-          </div>
-
-          <div className={styles.right}>
-            <div className={`${styles.searchContainer} ${isSearchOpen ? styles.searchOpen : ''}`}>
-              <form onSubmit={handleSearchSubmit} className={styles.searchForm}>
-                <input 
-                  type="text" 
-                  placeholder="Search newsTimes..."
-                  className={styles.searchInput}
-                  value={searchQuery}
-                  onChange={(e) => setSearchQuery(e.target.value)}
-                  onBlur={() => !searchQuery && setIsSearchOpen(false)}
-                  ref={(input) => isSearchOpen && input?.focus()}
-                />
-              </form>
-              <button 
-                className={styles.searchButton}
-                onClick={() => setIsSearchOpen(!isSearchOpen)}
-                aria-label="Search"
-              >
-                <Search size={18} />
-              </button>
-            </div>
-            <div className={styles.dateTime}>
-              <span className={styles.date}>{formattedDate}</span>
-              <span className={styles.time}>{formattedTime}</span>
-            </div>
+          <div className={styles.tickerContent}>
+            {latestNews.map((item, i) => (
+              <span key={`second-${i}`} className={styles.newsItem}>
+                <Link href={`/article/${item.slug}`} className={styles.newsLink}>
+                  {item.headline}
+                </Link>
+                <span className={styles.bullet}>&bull;</span>
+              </span>
+            ))}
           </div>
         </div>
-      </header>
+      </div>
+      <div className={styles.container}>
+        
+        <nav className={styles.categoriesNav}>
+          <Link href="/">Home</Link>
+          <span className={styles.separator}>|</span>
+          <Link href="/search?q=finance">Finance</Link>
+          <span className={styles.separator}>|</span>
+          <Link href="/search?q=technology">Technology</Link>
+          <span className={styles.separator}>|</span>
+          <Link href="/search?q=market">Market</Link>
+          <span className={styles.separator}>|</span>
+          <Link href="/search?q=sports">Sports</Link>
+          <span className={styles.separator}>|</span>
+          <Link href="/search?q=business">Business</Link>
+        </nav>
 
-      <Navigation isOpen={isNavOpen} onClose={() => setIsNavOpen(false)} />
-    </>
+        <div className={styles.logoContainer}>
+          <div className={styles.timeDisplay}>{formattedTime}</div>
+          <Link href="/" className={styles.logo}>
+            NEWS TIMES
+          </Link>
+          <div className={styles.dateDisplay}>{formattedDate}</div>
+        </div>
+        
+      </div>
+    </header>
   );
 };
 

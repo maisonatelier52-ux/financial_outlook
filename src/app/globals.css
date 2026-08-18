@@ -1,11 +1,11 @@
 :root {
-  --background: #f4f4f1;
+  --background: #f9f9f6; /* Classic newsprint cream */
   --surface: #ffffff;
-  --foreground: #111111;
-  --muted: #747474;
-  --border: #d7d7d2;
-  --dark: #101010;
-  --accent: #d94b32;
+  --foreground: #222222;
+  --muted: #666666;
+  --border: #d4d4d0;
+  --dark: #0f4a38; /* Deep Forest Green */
+  --accent: #0f4a38;
 
   --font-display: "Playfair Display", serif;
   --font-body: "Inter", sans-serif;

@@ -1,0 +1,118 @@
+.searchPage {
+  display: flex;
+  flex-direction: column;
+  min-height: 70vh;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 var(--space-lg);
+  width: 100%;
+}
+
+.header {
+  padding: var(--space-2xl) 0 var(--space-xl);
+  background-color: var(--surface);
+  border-bottom: 1px solid var(--border);
+}
+
+.title {
+  font-family: var(--font-display);
+  font-size: 3rem;
+  color: var(--foreground);
+  margin-bottom: var(--space-xl);
+  text-align: center;
+}
+
+.searchForm {
+  position: relative;
+  display: flex;
+  align-items: center;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.searchInput {
+  width: 100%;
+  padding: var(--space-md) var(--space-xl) var(--space-md) var(--space-md);
+  font-family: var(--font-body);
+  font-size: 1.5rem;
+  color: var(--foreground);
+  background-color: transparent;
+  border: none;
+  border-bottom: 2px solid var(--foreground);
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+.searchInput::placeholder {
+  color: var(--muted);
+  font-weight: 300;
+}
+
+.searchInput:focus {
+  border-bottom-color: var(--accent);
+}
+
+.searchButton {
+  position: absolute;
+  right: var(--space-md);
+  background: none;
+  border: none;
+  color: var(--foreground);
+  cursor: pointer;
+  transition: color 0.2s ease;
+}
+
+.searchButton:hover {
+  color: var(--accent);
+}
+
+.resultsCount {
+  font-family: var(--font-body);
+  font-size: 0.85rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  color: var(--accent);
+  text-align: center;
+  margin-top: var(--space-xl);
+}
+
+.main {
+  padding: var(--space-2xl) 0;
+}
+
+.resultsList {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-md);
+}
+
+.noResults {
+  text-align: center;
+  padding: var(--space-2xl) 0;
+}
+
+.noResultsTitle {
+  font-family: var(--font-display);
+  font-size: 2.5rem;
+  color: var(--foreground);
+  margin-bottom: var(--space-md);
+}
+
+.noResultsText {
+  font-family: var(--font-body);
+  font-size: 1.15rem;
+  color: var(--muted);
+  margin-bottom: var(--space-xs);
+}
+
+@media (max-width: 768px) {
+  .title {
+    font-size: 2rem;
+  }
+  .searchInput {
+    font-size: 1.15rem;
+  }
+}
