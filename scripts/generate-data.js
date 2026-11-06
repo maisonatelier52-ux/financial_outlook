@@ -10,11 +10,11 @@ const CATEGORIES = [
 ];
 
 const AUTHORS = [
-  { name: "Eleanor Vance", role: "Senior Editor", email: "e.vance@newstimes.com", website: "https://example.com/evance" },
-  { name: "Julian Thorne", role: "Chief Investigative Reporter", email: "j.thorne@newstimes.com", website: "https://example.com/jthorne" },
-  { name: "Maya Rossi", role: "Technology Correspondent", email: "m.rossi@newstimes.com", website: "https://example.com/mrossi" },
-  { name: "David Chen", role: "Financial Analyst", email: "d.chen@newstimes.com", website: "https://example.com/dchen" },
-  { name: "Sarah Jenkins", role: "Cultural Critic", email: "s.jenkins@newstimes.com", website: "https://example.com/sjenkins" }
+  { name: "Eleanor Vance", role: "Senior Editor", email: "e.vance@financialoutlook.com", website: "https://example.com/evance" },
+  { name: "Julian Thorne", role: "Chief Investigative Reporter", email: "j.thorne@financialoutlook.com", website: "https://example.com/jthorne" },
+  { name: "Maya Rossi", role: "Technology Correspondent", email: "m.rossi@financialoutlook.com", website: "https://example.com/mrossi" },
+  { name: "David Chen", role: "Financial Analyst", email: "d.chen@financialoutlook.com", website: "https://example.com/dchen" },
+  { name: "Sarah Jenkins", role: "Cultural Critic", email: "s.jenkins@financialoutlook.com", website: "https://example.com/sjenkins" }
 ];
 
 const PARAGRAPHS_POOL = [

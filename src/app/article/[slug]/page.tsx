@@ -23,7 +23,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   if (!article) return { title: 'Article Not Found' };
   
   return {
-    title: `${article.headline} | newsTimes`,
+    title: `${article.headline} | Financial Outlook`,
     description: article.excerpt,
     openGraph: {
       title: article.headline,

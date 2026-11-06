@@ -20,7 +20,7 @@ export default async function SearchPage({
     <div className={styles.searchPage}>
       <header className={styles.header}>
         <div className={styles.container}>
-          <h1 className={styles.title}>SEARCH newsTimes</h1>
+          <h1 className={styles.title}>SEARCH FINANCIAL OUTLOOK</h1>
           
           <form className={styles.searchForm} action="/search" method="GET">
             <input 

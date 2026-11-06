@@ -6,8 +6,8 @@ import { getAllAuthors } from '@/lib/authors';
 import styles from './page.module.css';
 
 export const metadata = {
-  title: 'Our Columnists | newsTimes',
-  description: 'The editorial board, reporting, and shaping the stories behind newsTimes.',
+  title: 'Our Columnists | Financial Outlook',
+  description: 'The editorial board, reporting, and shaping the stories behind Financial Outlook.',
 };
 
 export default function AuthorsPage() {
@@ -21,7 +21,7 @@ export default function AuthorsPage() {
           <h1 className={styles.heroTitle}>OUR COLUMNISTS</h1>
           <div className={styles.heroLineThick}></div>
           <p className={styles.heroSubtitle}>
-            The editorial board, reporting, investigating and shaping the stories behind newsTimes.
+            The editorial board, reporting, investigating and shaping the stories behind Financial Outlook.
           </p>
         </div>
       </header>

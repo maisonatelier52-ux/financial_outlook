@@ -21,7 +21,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   if (!data) return { title: 'Author Not Found' };
   
   return {
-    title: `${data.author.name} | newsTimes`,
+    title: `${data.author.name} | Financial Outlook`,
     description: data.author.biography,
   };
 }

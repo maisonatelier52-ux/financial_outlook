@@ -10,7 +10,7 @@ const INFO_PAGES: Record<string, { title: string; subtitle: string; content: { t
     content: [
       { title: 'Our Mission', text: 'To provide accurate, unbiased, and comprehensive news coverage that empowers our readers to make informed decisions. We believe that a well-informed public is the cornerstone of a functioning democracy.' },
       { title: 'Our Vision', text: 'To be the most trusted source of independent journalism globally, setting the standard for integrity and editorial excellence.' },
-      { title: 'Our History', text: 'Founded in a small office with a big idea, newsTimes has grown into a leading digital publication. We have continually adapted to the changing media landscape while remaining true to our core values.' },
+      { title: 'Our History', text: 'Founded in a small office with a big idea, Financial Outlook has grown into a leading digital publication. We have continually adapted to the changing media landscape while remaining true to our core values.' },
       { title: 'Our Team', text: 'Our newsroom comprises award-winning journalists, editors, and researchers dedicated to uncovering the truth. We operate with a strict separation between our editorial and business operations.' }
     ]
   },
@@ -27,17 +27,17 @@ const INFO_PAGES: Record<string, { title: string; subtitle: string; content: { t
     title: 'CONTACT US',
     subtitle: 'We welcome your feedback and inquiries.',
     content: [
-      { title: 'General Inquiries', text: 'For general questions, please email info@newstimes.com or call our main office at +1 (555) 0123-4567.' },
-      { title: 'Newsroom', text: 'To send a tip or contact the newsroom, email tips@newstimes.com. We offer secure methods for confidential communication.' },
-      { title: 'Advertising', text: 'For advertising inquiries, please contact our commercial team at ads@newstimes.com.' },
-      { title: 'Mailing Address', text: 'newsTimes Media\n100 Editorial Way, Suite 400\nNew York, NY 10001' }
+      { title: 'General Inquiries', text: 'For general questions, please email info@financialoutlook.com or call our main office at +1 (555) 0123-4567.' },
+      { title: 'Newsroom', text: 'To send a tip or contact the newsroom, email tips@financialoutlook.com. We offer secure methods for confidential communication.' },
+      { title: 'Advertising', text: 'For advertising inquiries, please contact our commercial team at ads@financialoutlook.com.' },
+      { title: 'Mailing Address', text: 'Financial Outlook Media\n100 Editorial Way, Suite 400\nNew York, NY 10001' }
     ]
   },
   'ownership-funding': {
     title: 'OWNERSHIP & FUNDING',
     subtitle: 'Transparency in how we operate.',
     content: [
-      { title: 'Ownership Structure', text: 'newsTimes is an independent media organization, wholly owned by the newsTimes Foundation, a non-profit entity dedicated to sustaining independent journalism.' },
+      { title: 'Ownership Structure', text: 'Financial Outlook is an independent media organization, wholly owned by the Financial Outlook Foundation, a non-profit entity dedicated to sustaining independent journalism.' },
       { title: 'Funding Sources', text: 'Our operations are funded through a combination of reader subscriptions, philanthropic grants, and advertising revenue. No single donor or advertiser accounts for more than 5% of our total budget.' },
       { title: 'Financial Independence', text: 'We maintain a strict firewall between our revenue operations and our newsroom. Advertisers and donors have no say in our editorial coverage.' }
     ]
@@ -59,7 +59,7 @@ const INFO_PAGES: Record<string, { title: string; subtitle: string; content: { t
       { title: 'Prompt Action', text: 'We strive to correct errors of fact as quickly as possible. Once verified, corrections are appended to the original article.' },
       { title: 'Transparency', text: 'Corrections will clearly state what was wrong and provide the accurate information. We do not use euphemisms for mistakes.' },
       { title: 'Significant Errors', text: 'In cases of significant reporting failures, we will publish a separate editor\'s note explaining how the failure occurred and the steps taken to prevent a recurrence.' },
-      { title: 'Reporting Errors', text: 'Readers who spot a potential error should email corrections@newstimes.com.' }
+      { title: 'Reporting Errors', text: 'Readers who spot a potential error should email corrections@financialoutlook.com.' }
     ]
   },
   'source-methodology': {
@@ -96,7 +96,7 @@ const INFO_PAGES: Record<string, { title: string; subtitle: string; content: { t
     subtitle: 'Rules for using our platform.',
     content: [
       { title: 'Acceptance', text: 'By using this website, you agree to these terms and conditions. If you do not agree, please do not use the site.' },
-      { title: 'Intellectual Property', text: 'All content on this site is the property of newsTimes or its licensors and is protected by copyright laws.' },
+      { title: 'Intellectual Property', text: 'All content on this site is the property of Financial Outlook or its licensors and is protected by copyright laws.' },
       { title: 'User Conduct', text: 'You agree to use the site only for lawful purposes and in a manner that does not infringe on the rights of others.' },
       { title: 'Modifications', text: 'We reserve the right to modify these terms at any time. Continued use of the site constitutes acceptance of the modified terms.' }
     ]
@@ -106,7 +106,7 @@ const INFO_PAGES: Record<string, { title: string; subtitle: string; content: { t
     subtitle: 'Our guidelines for commercial content.',
     content: [
       { title: 'Clear Distinction', text: 'We maintain a clear distinction between editorial content and advertising. Advertisements will always be clearly labeled.' },
-      { title: 'No Endorsement', text: 'The publication of an advertisement does not constitute an endorsement by newsTimes.' },
+      { title: 'No Endorsement', text: 'The publication of an advertisement does not constitute an endorsement by Financial Outlook.' },
       { title: 'Acceptability', text: 'We reserve the right to reject any advertisement that we deem inappropriate, misleading, or contrary to our values.' },
       { title: 'Sponsored Content', text: 'Sponsored content will be explicitly marked as such and is produced independently of our newsroom.' }
     ]
@@ -116,9 +116,9 @@ const INFO_PAGES: Record<string, { title: string; subtitle: string; content: { t
     subtitle: 'Legal information and disclaimers.',
     content: [
       { title: 'Disclaimer of Warranties', text: 'This site is provided "as is" without any representations or warranties, express or implied.' },
-      { title: 'Limitation of Liability', text: 'newsTimes will not be liable for any damages arising from the use of this site or the information it contains.' },
-      { title: 'Governing Law', text: 'These terms are governed by the laws of the jurisdiction in which newsTimes is headquartered.' },
-      { title: 'Contact', text: 'For legal inquiries, please contact legal@newstimes.com.' }
+      { title: 'Limitation of Liability', text: 'Financial Outlook will not be liable for any damages arising from the use of this site or the information it contains.' },
+      { title: 'Governing Law', text: 'These terms are governed by the laws of the jurisdiction in which Financial Outlook is headquartered.' },
+      { title: 'Contact', text: 'For legal inquiries, please contact legal@financialoutlook.com.' }
     ]
   }
 };
@@ -136,7 +136,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   if (!data) return { title: 'Page Not Found' };
   
   return {
-    title: `${data.title} | newsTimes`,
+    title: `${data.title} | Financial Outlook`,
     description: data.subtitle,
   };
 }
@@ -194,10 +194,7 @@ export default async function InfoPage({ params }: { params: Promise<{ slug: str
               ))}
               
               <div className={styles.endMark}>
-                <span className={styles.endLogo}>
-                  <span className={styles.news}>news</span>
-                  <span className={styles.times}>Times</span>
-                </span>
+                <span className={styles.endLogo}>Financial Outlook</span>
                 <p>Updated 2026</p>
               </div>
             </div>

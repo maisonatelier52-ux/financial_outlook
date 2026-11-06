@@ -40,7 +40,7 @@ const Footer = () => {
         <div className={styles.topSection}>
           <div className={styles.brand}>
             <Link href="/" className={styles.logo}>
-              NEWS TIMES
+              FINANCIAL OUTLOOK
             </Link>
             <p className={styles.quote}>Independent journalism for a world in motion.</p>
           </div>
@@ -85,7 +85,7 @@ const Footer = () => {
         </div>
 
         <div className={styles.bottomSection}>
-          <p className={styles.copyright}>© 2026 newsTimes<br/>ALL RIGHTS RESERVED</p>
+          <p className={styles.copyright}>© 2026 Financial Outlook<br/>ALL RIGHTS RESERVED</p>
         </div>
       </div>
     </footer>

@@ -18,7 +18,7 @@ const playfair = Playfair_Display({
 import { getAllArticles } from "@/lib/articles";
 
 export const metadata: Metadata = {
-  title: "newsTimes",
+  title: "Financial Outlook",
   description: "Independent journalism for a world in motion.",
 };
 
