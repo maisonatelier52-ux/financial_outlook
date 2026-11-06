@@ -60,7 +60,7 @@ const Header: React.FC<HeaderProps> = ({ latestNews }) => {
         <div className={styles.logoContainer}>
           <div className={styles.timeDisplay}>{formattedTime}</div>
           <Link href="/" className={styles.logo}>
-            NEWS TIMES
+            FINANCIAL OUTLOOK
           </Link>
           <div className={styles.dateDisplay}>{formattedDate}</div>
         </div>
